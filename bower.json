@@ -1,0 +1,30 @@
+{
+  "name": "node-js-getting-started",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "authors": [
+    "BrunoDeNadaiSarnaglia <brunodenadaisarnaglia@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "homepage": "https://github.com/heroku/node-js-getting-started",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "ejs": "^1.0.0"
+  }
+}
