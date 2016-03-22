@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "express": "^4.13.4",
-    "ejs": "^1.0.0"
+    "ejs": "^1.0.0",
+    "angular": "angularjs#^1.5.2"
   }
 }
