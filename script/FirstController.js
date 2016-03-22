@@ -1,10 +1,12 @@
-angular.module("FirstApp.Controllers", []).controller("FirstController", function ($scope) {
+angular.module("FirstApp.Controllers", []).controller("FirstController", function ($scope, Facebook) {
     $scope.names = [
         "Ahmed",
         "Tom",
         "David",
         "Jessie"
     ];
+
+    $scope.user = Facebook.getUser(FB);
 })
 
 /**

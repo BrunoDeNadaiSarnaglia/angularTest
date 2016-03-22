@@ -1,1 +1,1 @@
-angular.module("FirstApp", ["FirstApp.Controllers"])
+angular.module("FirstApp", ["FirstApp.Controllers", "Facebook"])
